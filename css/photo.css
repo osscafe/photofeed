@@ -1,0 +1,44 @@
+div#instagram-photos ul {
+	padding: 0;
+}
+div#instagram-photos ul li {
+	list-style: none;
+	margin: 10px; padding:5px;
+	width: 150px;
+	display: inline-block;
+	background: #f0f0f0;
+	line-height: 1.2em;
+	-moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+div#instagram-photos ul li a {
+	text-decoration: none;
+	color: #666;
+}
+div#instagram-photos ul li a img {
+	width: 150px;
+}
+div#instagram-photos ul li a span {
+	font-size: 12px;
+	display: block;
+	padding: 0 0 0 2px;
+}
+div#instagram-photos ul li>span {
+	display:block;
+	border-top: 1px solid #ddd;
+	margin:5px 0 0;
+	padding:5px 0 0;
+}
+div#instagram-photos ul li span img {
+	float:right;
+	vertical-align:middle;
+	width: 24px; height:24px;
+}
+div#instagram-photos ul li span span {
+	font-size: 12px;
+	padding: 0 0 0 2px;
+	color: #999;
+}

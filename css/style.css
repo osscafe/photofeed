@@ -1,0 +1,108 @@
+/* @override 
+	http://osscafe.herokuapp.site/style/style.css */
+
+/* @group CSS reset */
+
+a, abbr, acronym, address, applet, article, aside, audio,
+b, blockquote, big, body,
+center, canvas, caption, cite, code, command,
+datalist, dd, del, details, dfn, dl, div, dt, 
+em, embed,
+fieldset, figcaption, figure, font, footer, form, 
+h1, h2, h3, h4, h5, h6, header, hgroup, html,
+i, iframe, img, ins,
+kbd, 
+keygen,
+label, legend, li, 
+meter,
+nav,
+object, ol, output,
+p, pre, progress,
+q, 
+s, samp, section, small, span, source, strike, strong, sub, sup,
+table, tbody, tfoot, thead, th, tr, tdvideo, tt,
+u, ul, 
+var { background: transparent; border: 0 none; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline }
+
+/* @end */
+
+/* @group HTML5 */
+
+aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {display: block}
+
+/* @end */
+
+/* @group Basic */
+
+pre { color:#555; padding:1em 2.5em; border: 1px dotted #333; background:#F7F7F7; margin-bottom:1em; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; white-space: pre-wrap; word-wrap: break-word }
+
+body { background:url(images/body.png) }
+
+/* @end */
+
+/* @group Layouts */
+
+/* @group Header */
+
+body>header { background: url(images/header.png); height:64px; box-shadow: 0px 1px 3px #444; position:fixed; top:0; left:0; right:0; z-index:99; opacity:0.95; }
+body>header div.center { position:relative; width:900px; margin:0 auto }
+body>header div.center>h1 { position:absolute; top:9px; width:191px; height:59px; text-indent:-9999px; background:url(images/logo.png); }
+body>header div.center>h1>a { display:block; width:100%; height:100%; }
+body>header div.center>nav { position:absolute; top:23px; right:50px }
+body>header div.center>nav>a { margin:0 .5em; color:#666; font-weight:bold; text-decoration:none; text-shadow: #fff 1px 1px 0 }
+
+/* @end */
+
+/* @group Contents */
+
+#main-content { background: #FFF; padding:64px 0 3em }
+#main-content div.center { margin:0 auto; width:900px; background: }
+#main-content h1 { font-size:300%; margin-top:30px; margin-bottom:20px; color:#666; }
+
+#main-content h2 { position:absolute; background: url(images/h2.png); height:48px; left:0; right:0; box-shadow: 0px 1px 6px #444; color:#FFF; text-shadow: #000 -1px -1px 0; font-size: 24px; line-height:48px; text-align:center; margin:40px 0 }
+#main-content h2+* { margin-top:128px }
+#main-content h2.no-margin-top { margin-top:0; }
+#main-content h2.no-margin-top+* { margin-top:88px; }
+#main-content p { color:#555; text-align:justify; line-height:1.6em; margin-bottom:1em; }
+#main-content img.fig { float:left; margin-right:30px }
+
+/* @end */
+
+/* @group Footer */
+
+body>footer { background: url(images/footer.png) repeat-x; box-shadow: 0px -3px 3px #999 }
+body>footer div.center { width:900px; margin:0 auto; padding:30px 0; color:#999; text-align: center }
+body>footer div.center p { margin:1em 0; font-size:13px }
+body>footer div.center a.made-in-osscafe { display:inline-block; width: 320px; height:70px; text-indent:-9999px; background: url(images/made-in-osscafe.png) no-repeat }
+
+/* @end */
+
+/* @group Miscellaneous */
+
+img.github-ribon { position: absolute; top: 0; right: 0; border: 0; z-index:99; }
+a.see-my-template { position:fixed; bottom:100px; right:0; width:85px; height:155px; background:url(images/label.png); text-indent:-9999px; }
+span.leader { color:#999; padding-left:2em; }
+
+/* @end */
+
+/* @group Font face */
+
+* { font-family:"Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","Meiryo","メイリオ","ＭＳ Ｐゴシック",sans-serif; }
+body>header div.center>nav>a,
+#main-content h1,
+#main-content h2,
+#main-content p.logo-desc,
+#main-content p.lead,
+.button,
+body>footer { font-family:"Abril Fatface"; font-weight:normal; }
+
+/* @end */
+
+/* @end */
+
+/* @group Clear-fix */
+
+p:after { content:"."; display:block; clear:both; visibility:hidden; line-height:0; height:0 }
+
+/* @end */
