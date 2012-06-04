@@ -6,6 +6,4 @@ Instagramでお店の写真集をつくろう
 
 <img src="https://github.com/osscafe/photofeed/raw/gh-pages/css/images/OSSCafe-Photo-Feed.png" width="50%" />
 
-▲カフェサイトの一部という想定で作られたページ。ユーザの投稿した写真とキャプションが、Masonryでタイル状に配置されている。
-
-詳しい開設は、web creators をどぞ :-)
+▲カフェサイトの一部という想定で作られたページ。ユーザの投稿した写真とキャプションが、Masonryでタイル状に配置されている。詳しい解説は、web creators をどぞ :-)
